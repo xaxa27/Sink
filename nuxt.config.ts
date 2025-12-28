@@ -37,8 +37,10 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/': {
-      prerender: true,
+   '/': {
+      // DELETE "prerender: true,"
+      // ADD the redirect here directly:
+      redirect: 'https://strawberris.vip', 
     },
     '/dashboard/**': {
       prerender: true,
