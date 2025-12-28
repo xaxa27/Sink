@@ -24,7 +24,10 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "08817f3986c54faba5aadbdd5edcd1d0" // IMPORTANT: Change this to your KV namespace ID
+      "id": "08817f3986c54faba5aadbdd5edcd1d0" 
     }
-  ]
+  ],
+  "vars": {
+    "NUXT_HOME_URL": "https://strawberris.vip"
+  }
 }
